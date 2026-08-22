@@ -7,7 +7,7 @@ Audio plugin (AU / VST3 / Standalone) built with [JUCE](https://juce.com). Part 
 ## Build
 
 ```sh
-git clone --recurse-submodules <repo-url>
+git clone --recurse-submodules https://github.com/uprod/DelayMXA.git
 cd DelayMXA
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
